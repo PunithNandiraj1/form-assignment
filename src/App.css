@@ -26,26 +26,29 @@
 }
 
 .icon {
-  
+  text-align: center;
+  align-content: center;
   align-items: center;
   margin: 0px 22em -20px 0px;
 }
 
 .icon svg {
-  font-size: 16px;
+  font-size: 18px;
   align-items: center;
+  align-content: center;
+  
 }
 
 .icon > label {
-  width: 32px;
-  height: 24px;
   font-family: 'General Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
   text-align: center;
   color: #808080;
+  align-content: center;
+  align-items: center;
+
 }
 
 .image-details {
@@ -121,7 +124,29 @@ form>input {
   border: 1.5px solid #6877CA;
   border-radius: 999px;
   margin: 0.25em 0em;
+  padding: 0px 0px 0px 30px;
+  font-family: 'General Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  color: #000000;
   
+}
+
+form > i {
+
+    position: absolute;
+    font-size: 30px;
+    margin: 15px 0px 0px -40px;
+  
+  
+}
+
+form > i:hover {
+  color: #00fcb6;
+  cursor: pointer;
 }
 
 form>h6 {

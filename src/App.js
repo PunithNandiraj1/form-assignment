@@ -1,9 +1,21 @@
-import React from "react";
+import React , {useState } from "react";
 import "./App.css";
 import avatar from "./images/avatar.png";
 import { IoChevronBackCircleOutline } from "react-icons/io5";
+import { AiOutlineEye , AiOutlineEyeInvisible} from "react-icons/ai";
+
+
+const eye = < AiOutlineEye/>;
+
+
+
 
 function App() {
+  const [passwordShown, setPasswordShown] = useState(false);
+  const togglePasswordVisiblity = () => {
+    setPasswordShown(passwordShown ? false : true);
+  };
+  
   return (
     <div className="App">
       <div className="form-container">
@@ -21,7 +33,11 @@ function App() {
         <div className="form-content">
           <label> Password </label>
           <form>
-            <input type="password" aria-label="Password" />
+            <input 
+            name="password"
+            type={passwordShown ? "text" : "password"} 
+            /> 
+            <i onClick={togglePasswordVisiblity}>{eye}</i>
             <h6>
               {" "}
               Forgot Password? <span> Reset </span>
