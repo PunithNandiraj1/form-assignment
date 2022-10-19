@@ -79,7 +79,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 10px 0px 2px 0px;
+  margin: 15px 0px 2px 0px;
 }
 
 .avatar-content>h2 {
@@ -94,11 +94,11 @@
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: 0px 0px 5px 0px;
+  margin: 5px 0px 5px 0px;
 }
 
 .form-content {
-  margin: 60px 0px 0px 0px;
+  margin: 50px 0px 0px 0px;
 }
 
 .form-content>label {
