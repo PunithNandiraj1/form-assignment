@@ -30,6 +30,7 @@
   align-content: center;
   align-items: center;
   margin: 0px 22em -20px 0px;
+  cursor: pointer;
 }
 
 .icon svg {
